@@ -64,7 +64,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initialize the RR repo and download the manifest
 
-      `  repo init -u https://github.com/ResurrectionRemix/platform_manifest_old.gitt -b kitkat1`
+      `  repo init -u https://github.com/opensource591/platform_manifest_old.gitt -b kitkat1`
 
 ##### Sync source
 
