@@ -43,37 +43,37 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Make directory for repo binary
 
-      $ mkdir ~/bin
+      ` mkdir ~/bin`
 
 ##### Add directory for repo binary to your path
 
-      $ PATH=~/bin:$PATH
+      ` PATH=~/bin:$PATH`
 
 ##### Download repo binary and place it in the proper directory
 
-      $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+       `sudo wget http://commondatastorage.googleapis.com/git-repo-downloads/repo  /bin/repo`
 
 ##### Give the repo binary the proper permissions
 
-      $ chmod a+x ~/bin/repo
+      ` chmod a+x ~/bin/repo`
 
 ##### Create directory for where the RR repo will be stored and synced
 
-      $ mkdir ~/RR
-      $ cd ~/RR
+       `mkdir RR`
+       `cd RR`
 
 ##### Initialize the RR repo and download the manifest
 
-      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b kitkat1
+      `  repo init -u https://github.com/ResurrectionRemix/platform_manifest_old.gitt -b kitkat1`
 
 ##### Sync source
 
-      $  repo sync
+        `repo sync`
 
 ##### To build Resurrection Remix ROM
 
-      $ cd ~/RR
-      $ ./build-rr.sh
+       `cd /RR`
+      ` ./build-rr.sh`
       
 ##### Instead of using the script, you can manually use these commands
 
